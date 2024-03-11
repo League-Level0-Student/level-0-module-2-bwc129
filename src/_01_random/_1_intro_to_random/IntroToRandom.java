@@ -17,7 +17,7 @@ public class IntroToRandom {
 		/*************  Random integers with no bounds  *************/
 		
 		// Run this program and you will see that nextInt created 5 random integers which have been printed to the console
-		for (int i=0; i<5; i++) {
+		for (int i=0; i<2; i++) {
 			number = ran.nextInt();
 			System.out.println(number);
 		}
@@ -30,21 +30,21 @@ public class IntroToRandom {
 		for (int i=0; i<5; i++) {
 			// Uncomment the line of code below, but replace the _____ with a positive integer (e.g. 100) before running the program			
 
-			// number = ran.nextInt(_____);
+			 number = ran.nextInt( 1);
 			System.out.println(number);
 			
 		}
 		
 		// All the numbers printed by this loop are less then the number you added - AND POSITIVE
 		// This means, if you entered 100, all the numbers returned by nextInt are between 0 and 99 inclusive
-
+// hi
 		
 		/*************  Random integers with an upper and lower limit  *************/
 		
 		// But what if you don't want the range to start at 0?  Let's say we want numbers between 25 and 75 inclusive.
 		// In this case, 25 is the lowest value we want, and 75 is the highest value. See below how to do this:
 		
-		for (int i=0; i<5; i++) {
+		for (int i=0; i<1; i++) {
 			// Uncomment the line of code below, and replace (_____)  with   (highest value - lowest value + 1)
 			// For our example, this will be:  ( 75 - 25 + 1 )
 			// Also replace <lowest value> with the start of the range.  For our example, this is 25.

@@ -10,14 +10,14 @@ import javax.swing.JOptionPane;
 public class Validation {
 	public static void main(String[] args) {
 		
-		Random randomMaker = new Random();
+		Random ranMaker = new Random();
 		
-		int randomNumber = randomMaker.nextInt(5);
+		int ranNumber = ranMaker.nextInt(5);
 		
-		System.out.println(randomNumber);
+		System.out.println(ranNumber);
 
-		// 1. Use each value of randomNumber to give the user a random compliment.
-
+		// 1. Use each value of ranNumber to give the user a random compliment.
+		String riddle =  JOptionPane.showInputDialog(ranMaker);
 		// 2. Repeat all the code above 10 times
 		
 		// 3. Find someone to test out your program. They will like it :)
