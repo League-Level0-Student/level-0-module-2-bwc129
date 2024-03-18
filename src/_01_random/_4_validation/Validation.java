@@ -17,9 +17,27 @@ public class Validation {
 		System.out.println(ranNumber);
 
 		// 1. Use each value of ranNumber to give the user a random compliment.
-		String riddle =  JOptionPane.showInputDialog(ranMaker);
+		//String thing =  JOptionPane.showInputDialog(ranNumber);
 		// 2. Repeat all the code above 10 times
+		 if (ranNumber ==0) {
 		
-		// 3. Find someone to test out your program. They will like it :)
+			 String h =  JOptionPane.showInputDialog("nice hair");}
+		
+		 if (ranNumber ==1) {
+				
+			 String hi =  JOptionPane.showInputDialog("cool shoes");}
+		 
+		 if (ranNumber ==2) {
+				
+			 String hii =  JOptionPane.showInputDialog("you are smart");}
+		
+		 if (ranNumber ==3) {
+				
+			 String hiii =  JOptionPane.showInputDialog("your cool");}
+		
+		 if (ranNumber ==4) {
+				
+			 String hiiii =  JOptionPane.showInputDialog("i like your shirt");}
+		// 3. Find someone to test your punch on. They won't like it :(
 	}
 }

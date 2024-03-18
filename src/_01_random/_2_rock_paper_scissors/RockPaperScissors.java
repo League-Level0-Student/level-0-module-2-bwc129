@@ -95,7 +95,7 @@ public class RockPaperScissors extends JPanel implements ActionListener{
         }
         
         JOptionPane.showMessageDialog(null, "You chose: " + convertSelection(selection) + ".\n"
-                    + "The computer chose: " + convertSelection(opponentSelection) + ".\n");
+                    + "The sigma person chose: " + convertSelection(opponentSelection) + ".\n");
         
         if(selection == opponentSelection){
             JOptionPane.showMessageDialog(null, "No Winner.  Play again.");
