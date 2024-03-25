@@ -11,6 +11,7 @@ import javax.swing.JOptionPane;
 public class Magic8Ball {
 
 	// 1. Make a main method that includes all the steps below
+	public static void main(String[] args) {
 
 	// 2. Get the user to enter a question for the 8 ball to answer
 	String question = JOptionPane.showInputDialog("ask me a question");
@@ -18,21 +19,31 @@ public class Magic8Ball {
 	
 	Random ranMaker = new Random();
 	
-	int ranNumber = ranMaker.nextInt(4);
+	int ranNumber = ranMaker.nextInt(6);
 	
 	System.out.println(ranNumber);
 
-if (ranNumber = 0) {
-	String h = JOptionPane.showInputDialog("no");}
+
+	if (ranNumber == 0) {
+		String h = JOptionPane.showInputDialog("no");}
+		
+	if (ranNumber ==1) {
+		String h = JOptionPane.showInputDialog("yes");}
 	
-if (ranNumber = 1) {
-	String h = JOptionPane.showInputDialog("yes");}
-
-if (ranNumber = 2) {
-	String h = JOptionPane.showInputDialog("maybe later");}
-
-if (ranNumber = 3) {
+	if (ranNumber == 2) {
+		String h = JOptionPane.showInputDialog("maybe later");}
+	
+	if (ranNumber == 3) {
 	String h = JOptionPane.showInputDialog("you are sigma");}
+	
+	if (ranNumber == 4) {
+		String h = JOptionPane.showInputDialog("you are him");}
+
+	if (ranNumber == 5) {
+		String h = JOptionPane.showInputDialog("get a life");}
+	
+	}
+	
 	
 	
 	
