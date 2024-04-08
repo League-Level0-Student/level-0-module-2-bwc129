@@ -65,3 +65,9 @@ void addSprinkle(int numberOfSprinkles){
          ellipse(sprinkleAreaX,sprinkleAreaY,sprinkleHeight,sprinkleWidth);
      }
 }
+void draw()  {
+makeIceCreamCone();
+addScoop("chocolate");
+addSprinkle(99999);
+
+}
