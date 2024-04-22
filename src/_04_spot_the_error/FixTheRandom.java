@@ -12,19 +12,19 @@ public class FixTheRandom {
 		
 		Random random = new Random();
 		
-		int numnber = random.nextInt(5);
-		
+		int numnber = random.nextInt(11);
+		System.out.println(numnber);
 		if (numnber == 5) {
 			System.out.println("FIVE");
-		} else if (numnber == 6) {
+		}  if (numnber == 6) {
 			System.out.println("SIX");
-		} else if (numnber == 7) {
+		}  if (numnber == 7) {
 			System.out.println("SEVEN");
-		} else if (numnber == 8) {
+		}  if (numnber == 8) {
 			System.out.println("EIGHT");
-		} else if (numnber == 9) {
+		}  if (numnber == 9) {
 			System.out.println("NINE");
-		} else if (numnber == 10) {
+		}  if (numnber == 10) {
 			System.out.println("TEN");
 		}
 	}
